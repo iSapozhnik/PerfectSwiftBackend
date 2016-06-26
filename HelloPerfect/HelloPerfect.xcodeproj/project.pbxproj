@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF82EA561D20A06F00C182CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF82EA551D20A06F00C182CD /* AppDelegate.swift */; };
+		FF82EA581D20A06F00C182CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF82EA571D20A06F00C182CD /* Assets.xcassets */; };
+		FF82EA5B1D20A06F00C182CD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF82EA591D20A06F00C182CD /* MainMenu.xib */; };
+		FF82EA661D20A06F00C182CD /* HelloPerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF82EA651D20A06F00C182CD /* HelloPerfectTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF82EA621D20A06F00C182CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF82EA4A1D20A06F00C182CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF82EA511D20A06F00C182CD;
+			remoteInfo = HelloPerfect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF82EA521D20A06F00C182CD /* HelloPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF82EA551D20A06F00C182CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF82EA571D20A06F00C182CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF82EA5A1D20A06F00C182CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FF82EA5C1D20A06F00C182CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF82EA611D20A06F00C182CD /* HelloPerfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloPerfectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF82EA651D20A06F00C182CD /* HelloPerfectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloPerfectTests.swift; sourceTree = "<group>"; };
+		FF82EA671D20A06F00C182CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF82EA4F1D20A06F00C182CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF82EA5E1D20A06F00C182CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF82EA491D20A06F00C182CD = {
+			isa = PBXGroup;
+			children = (
+				FF82EA541D20A06F00C182CD /* HelloPerfect */,
+				FF82EA641D20A06F00C182CD /* HelloPerfectTests */,
+				FF82EA531D20A06F00C182CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF82EA531D20A06F00C182CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF82EA521D20A06F00C182CD /* HelloPerfect.app */,
+				FF82EA611D20A06F00C182CD /* HelloPerfectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF82EA541D20A06F00C182CD /* HelloPerfect */ = {
+			isa = PBXGroup;
+			children = (
+				FF82EA551D20A06F00C182CD /* AppDelegate.swift */,
+				FF82EA571D20A06F00C182CD /* Assets.xcassets */,
+				FF82EA591D20A06F00C182CD /* MainMenu.xib */,
+				FF82EA5C1D20A06F00C182CD /* Info.plist */,
+			);
+			path = HelloPerfect;
+			sourceTree = "<group>";
+		};
+		FF82EA641D20A06F00C182CD /* HelloPerfectTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF82EA651D20A06F00C182CD /* HelloPerfectTests.swift */,
+				FF82EA671D20A06F00C182CD /* Info.plist */,
+			);
+			path = HelloPerfectTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF82EA511D20A06F00C182CD /* HelloPerfect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF82EA6A1D20A06F00C182CD /* Build configuration list for PBXNativeTarget "HelloPerfect" */;
+			buildPhases = (
+				FF82EA4E1D20A06F00C182CD /* Sources */,
+				FF82EA4F1D20A06F00C182CD /* Frameworks */,
+				FF82EA501D20A06F00C182CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloPerfect;
+			productName = HelloPerfect;
+			productReference = FF82EA521D20A06F00C182CD /* HelloPerfect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF82EA601D20A06F00C182CD /* HelloPerfectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF82EA6D1D20A06F00C182CD /* Build configuration list for PBXNativeTarget "HelloPerfectTests" */;
+			buildPhases = (
+				FF82EA5D1D20A06F00C182CD /* Sources */,
+				FF82EA5E1D20A06F00C182CD /* Frameworks */,
+				FF82EA5F1D20A06F00C182CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF82EA631D20A06F00C182CD /* PBXTargetDependency */,
+			);
+			name = HelloPerfectTests;
+			productName = HelloPerfectTests;
+			productReference = FF82EA611D20A06F00C182CD /* HelloPerfectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF82EA4A1D20A06F00C182CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sapozhnik Ivan";
+				TargetAttributes = {
+					FF82EA511D20A06F00C182CD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					FF82EA601D20A06F00C182CD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FF82EA511D20A06F00C182CD;
+					};
+				};
+			};
+			buildConfigurationList = FF82EA4D1D20A06F00C182CD /* Build configuration list for PBXProject "HelloPerfect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF82EA491D20A06F00C182CD;
+			productRefGroup = FF82EA531D20A06F00C182CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF82EA511D20A06F00C182CD /* HelloPerfect */,
+				FF82EA601D20A06F00C182CD /* HelloPerfectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF82EA501D20A06F00C182CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF82EA581D20A06F00C182CD /* Assets.xcassets in Resources */,
+				FF82EA5B1D20A06F00C182CD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF82EA5F1D20A06F00C182CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF82EA4E1D20A06F00C182CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF82EA561D20A06F00C182CD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF82EA5D1D20A06F00C182CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF82EA661D20A06F00C182CD /* HelloPerfectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF82EA631D20A06F00C182CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF82EA511D20A06F00C182CD /* HelloPerfect */;
+			targetProxy = FF82EA621D20A06F00C182CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF82EA591D20A06F00C182CD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF82EA5A1D20A06F00C182CD /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF82EA681D20A06F00C182CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF82EA691D20A06F00C182CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FF82EA6B1D20A06F00C182CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HelloPerfect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sapozhnik-Ivan.HelloPerfect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF82EA6C1D20A06F00C182CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HelloPerfect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sapozhnik-Ivan.HelloPerfect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF82EA6E1D20A06F00C182CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HelloPerfectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sapozhnik-Ivan.HelloPerfectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloPerfect.app/Contents/MacOS/HelloPerfect";
+			};
+			name = Debug;
+		};
+		FF82EA6F1D20A06F00C182CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HelloPerfectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sapozhnik-Ivan.HelloPerfectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloPerfect.app/Contents/MacOS/HelloPerfect";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF82EA4D1D20A06F00C182CD /* Build configuration list for PBXProject "HelloPerfect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF82EA681D20A06F00C182CD /* Debug */,
+				FF82EA691D20A06F00C182CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF82EA6A1D20A06F00C182CD /* Build configuration list for PBXNativeTarget "HelloPerfect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF82EA6B1D20A06F00C182CD /* Debug */,
+				FF82EA6C1D20A06F00C182CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF82EA6D1D20A06F00C182CD /* Build configuration list for PBXNativeTarget "HelloPerfectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF82EA6E1D20A06F00C182CD /* Debug */,
+				FF82EA6F1D20A06F00C182CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF82EA4A1D20A06F00C182CD /* Project object */;
+}
