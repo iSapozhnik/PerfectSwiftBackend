@@ -11,6 +11,8 @@
 		FF82EA581D20A06F00C182CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF82EA571D20A06F00C182CD /* Assets.xcassets */; };
 		FF82EA5B1D20A06F00C182CD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF82EA591D20A06F00C182CD /* MainMenu.xib */; };
 		FF82EA661D20A06F00C182CD /* HelloPerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF82EA651D20A06F00C182CD /* HelloPerfectTests.swift */; };
+		FF82EA711D20A13100C182CD /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF82EA701D20A13100C182CD /* PerfectLib.framework */; };
+		FF82EA731D20A24500C182CD /* Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF82EA721D20A24500C182CD /* Handler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		FF82EA611D20A06F00C182CD /* HelloPerfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloPerfectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF82EA651D20A06F00C182CD /* HelloPerfectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloPerfectTests.swift; sourceTree = "<group>"; };
 		FF82EA671D20A06F00C182CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF82EA701D20A13100C182CD /* PerfectLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PerfectLib.framework; path = "../../../Library/Developer/Xcode/DerivedData/HelloPerfect-gpfvydqydckbumegmtxzgvszalzj/Build/Products/Debug/PerfectLib.framework"; sourceTree = "<group>"; };
+		FF82EA721D20A24500C182CD /* Handler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Handler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF82EA711D20A13100C182CD /* PerfectLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +60,7 @@
 		FF82EA491D20A06F00C182CD = {
 			isa = PBXGroup;
 			children = (
+				FF82EA701D20A13100C182CD /* PerfectLib.framework */,
 				FF82EA541D20A06F00C182CD /* HelloPerfect */,
 				FF82EA641D20A06F00C182CD /* HelloPerfectTests */,
 				FF82EA531D20A06F00C182CD /* Products */,
@@ -73,6 +79,7 @@
 		FF82EA541D20A06F00C182CD /* HelloPerfect */ = {
 			isa = PBXGroup;
 			children = (
+				FF82EA721D20A24500C182CD /* Handler.swift */,
 				FF82EA551D20A06F00C182CD /* AppDelegate.swift */,
 				FF82EA571D20A06F00C182CD /* Assets.xcassets */,
 				FF82EA591D20A06F00C182CD /* MainMenu.xib */,
@@ -190,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF82EA731D20A24500C182CD /* Handler.swift in Sources */,
 				FF82EA561D20A06F00C182CD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,10 +319,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(CONFIGURATION_BUILD_DIR)";
 				INFOPLIST_FILE = HelloPerfect/Info.plist;
+				INSTALL_PATH = /PerfectLibraries;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Sapozhnik-Ivan.HelloPerfect";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
 			};
 			name = Debug;
 		};
@@ -323,10 +335,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(CONFIGURATION_BUILD_DIR)";
 				INFOPLIST_FILE = HelloPerfect/Info.plist;
+				INSTALL_PATH = /PerfectLibraries;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Sapozhnik-Ivan.HelloPerfect";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
 			};
 			name = Release;
 		};
